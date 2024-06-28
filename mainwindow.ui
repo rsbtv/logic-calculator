@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>911</width>
+    <height>533</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QComboBox" name="comboBox_OP1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>false</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>true</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_OP2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>140</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>false</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>true</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_Oper">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>140</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Мин. 6 лог. операций</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Конъюнкция</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Дизъюнкция</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Инверсия по 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Инверсия по 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Импликация</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Эквивалентность</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>911</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
